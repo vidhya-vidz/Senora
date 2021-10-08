@@ -1,0 +1,147 @@
+body{
+    font-size: 16px;
+}
+#header-nav {
+  background-color: white;
+  border-radius: 0;
+  border: 0; 
+  margin-bottom: 10px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: "Oxygen", serif;
+  color: black;  
+  position: relative; 
+  text-align: center;
+  z-index: 1;
+  left:390px;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: .75;
+} 
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1:before, .navbar-brand h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 5px;
+    content: '\a0';
+    background-color: black; 
+    font-weight: bold;
+}
+.navbar-brand h1:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 160px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: white;
+}
+#nav-list a span {
+  font-size: 1.8em; 
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+} 
+.container .jumbotron {
+  box-shadow: 0 0 50px black;
+  border: 2px solid black; 
+  text-align: center; 
+  position: relative;
+} 
+.container .jumbotron img{
+	text-align: center; 
+	position: relative;
+	left:150px;
+} 
+.category-tile{
+border: 2px solid black;  
+margin-bottom: 25px; 
+border-radius: 10px; 
+text-align: center;
+} 
+.footer-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 2rem;
+}
+
+.footer-logo {
+    font-size: 12px;
+    color: black;
+}
+
+.footer-description {
+    display: inline;
+    font-size: 12px;
+    margin: .25rem 0 var(--margin-3);
+}
+
+.footer-social {
+    font-size: 3.5rem;
+    color: var(--title-color);
+    margin-right: var(--margin-2);
+}
+
+.footer-title {
+    font-size: 12px;
+    color: var(--title-color);
+    margin-bottom: var(--margin-2);
+}
+
+.footer-link {
+    display: inline;
+    color: var(--text-color);
+    margin-bottom: var(--margin-1);
+}
+
+.footer-link:hover {
+    color: var(--first-color);
+}
+
+.footer-copy {
+    text-align: center;
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+    margin-top: 3.5rem;
+}
+.section {
+    padding: 4rem 0 2rem;
+} 
+.body-grid {
+    display: grid;
+    gap: 1.5rem;
+}
