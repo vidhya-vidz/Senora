@@ -145,3 +145,13 @@ text-align: center;
     display: grid;
     gap: 1.5rem;
 }
+.plus_button{
+  float:right; 
+  background-color: white;
+  border-color: black;
+  border-radius: 6px;
+  padding: 12px;
+}
+.glyphicon-plus{
+  color:black;
+}
