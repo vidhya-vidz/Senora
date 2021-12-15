@@ -155,15 +155,13 @@ body {
   background: url('../image/unique.jpeg') no-repeat;
   background-position: center; 
   width: 65%; 
-  margin-bottom: 10px; 
-  padding: 0px; 
+  float: right;
 }
 #dress-tile {
   background: url('../image/embr.jpg') no-repeat;
   background-position: center; 
   width: 65%;  
-  float: right; 
-    padding: 0px; 
+  margin-left: 390px;
 }
 
 #choc-tile span, #bags-tile span, #jewel-tile span ,#dress-tile span{
@@ -318,4 +316,98 @@ line-height:  1.2857143;
     font-size: 3.5rem;
     color: var(--title-color);
     margin-right: 10px;
+} 
+/************CART PAGE****************/ 
+
+.products-container{
+  max-width: 650px; 
+  margin: 0 auto;
+} 
+
+.product-header{
+  display: flex; 
+  justify-content: flex-start;
+  border-bottom: 4px solid white ;
+  margin: 0 auto;
+}
+
+.product-title{
+  width: 45%;
+  margin-left: 80px; 
+  text-align: center; 
+  font-weight: bold; 
+  font-size: 16px;
+  color : #112A46;
+}
+
+.price{
+  width: 15%;
+  display: flex;  
+  margin-right: 110px;
+  align-items: center; 
+}
+
+.quantity{
+  width: 70%;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+.total{
+  width: 70%;
+  margin-right: 40px;
+  display: flex; 
+  align-items: center; 
+} 
+
+.product{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding: 15px 0; 
+  color : #99154E;
+  border-bottom: 4px solid white;
+} 
+
+.glyphicon-ok{
+  font-size: 25px;
+  color:#112A46;
+  margin-left: 2px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.price{
+  display: flex;
+  width: 70%;
+  margin-left: 90px;
+  align-items: center;
+  justify-content: center;
+}
+.quantities{
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.totals{
+  margin-left: 20px; 
+  margin-right: 10px;
+  align-items: center;
+}
+.basketTotalContainer{
+  display: flex;
+  justify-content: flex-end; 
+  width: 100%;
+  padding: 10px 0;
+} 
+.basketTotal{
+  width: 20%;
+  margin-left: 30px; 
+  color : #112A46;
+  font-weight: bold;
+}
+.basketTotalTitle{
+  color : #112A46;
+  font-weight: bold;
+} 
+.prices{
+  margin-left:150px;
 }
